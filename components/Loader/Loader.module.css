@@ -1,5 +1,6 @@
 .loaderContainer {
     min-height: 100vh;
+    margin-top: -70px;
     width: 100%;
     background-color: var(--helper-dark);
     position: absolute;

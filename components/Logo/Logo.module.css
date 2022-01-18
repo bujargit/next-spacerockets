@@ -1,5 +1,6 @@
 .logo {
-    width: 15%;
+    width: 20%;
+    cursor: pointer;
 }
 .logo g {
     fill: var(--main-light);

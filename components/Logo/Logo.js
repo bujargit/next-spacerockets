@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import classes from "./Logo.module.css";
 
-const spaceXLogo = () => (
+const SpaceXLogo = () => (
   <div className={classes.logo}>
-    <Link to="/">
+    <Link href="/">
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 400 50">
         <title>SpaceX</title>
         <g className="letter_s">
@@ -65,4 +65,4 @@ const spaceXLogo = () => (
   </div>
 );
 
-export default spaceXLogo;
+export default SpaceXLogo;

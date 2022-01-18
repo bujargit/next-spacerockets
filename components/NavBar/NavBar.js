@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "@mui/material";
-import SpaceXSvgLogo from "./../Logo/Logo";
+import SpaceXLogo from '../Logo/Logo';
 
 import classes from "./Navbar.module.css";
 
@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <Container>
       <div className={classes.topHeader}>
-        <SpaceXSvgLogo />
+        <SpaceXLogo />
       </div>
     </Container>
   );

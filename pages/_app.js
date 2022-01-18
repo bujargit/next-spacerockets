@@ -1,6 +1,6 @@
 import { ApolloProvider, InMemoryCache, ApolloClient } from "@apollo/client";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-// import NavBar from '../components/NavBar/NavBar';
+import Layout from "../components/Layout/Layout";
 import "../styles/globals.css";
 
 const client = new ApolloClient({
@@ -28,8 +28,9 @@ function MyApp({ Component, pageProps }) {
     <ApolloProvider client={client}>
       <ThemeProvider theme={theme}>
         <div className="general">
-          {/* <NavBar /> */}
-          <Component {...pageProps} />
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
         </div>
       </ThemeProvider>
     </ApolloProvider>
