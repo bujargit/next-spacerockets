@@ -28,7 +28,7 @@ const SingleCard = ({
   }
 
   return (
-    <Card sx={{ maxWidth: 345, mb: 3 }}>
+    <Card sx={{ mx: 1, mb: 2 }}>
       <CardMedia
         component="img"
         height="170"
