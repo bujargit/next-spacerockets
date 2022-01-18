@@ -1,5 +1,5 @@
 import { gql } from "@apollo/client";
-import client from './apolloClients';
+import client from '../apolloClients';
 import { Container, Grid, Typography } from "@mui/material";
 import Error from "../components/Error/Error";
 import Loader from "../components/Loader/Loader";
