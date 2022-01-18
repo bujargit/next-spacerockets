@@ -1,0 +1,21 @@
+.rocket {
+    background-color: var(--main-dark);
+}
+
+.back__link a{
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.back__link a:hover{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}

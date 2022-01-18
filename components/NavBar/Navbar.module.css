@@ -1,0 +1,32 @@
+/* header {
+  padding-top: 10px;
+  padding-bottom: 50px;
+} */
+
+.topHeader {
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+/* .nav__link {
+  font-weight: 700;
+}
+.nav__link a,
+.nav__link a:hover {
+  color: var(--helper-grey);
+  text-decoration: none;
+}
+.nav__link a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--helper-grey);
+  transition: width 0.3s ease-in-out;
+}
+.nav__link a:hover::after {
+  width: 100%;
+} */
+
+.navContainer {
+  padding-bottom: 60px;
+}

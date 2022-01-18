@@ -1,0 +1,11 @@
+.logo {
+    width: 15%;
+}
+.logo g {
+    fill: var(--main-light);
+}
+@media (max-width: 900px) {
+    .logo {
+        width: 50%;
+   }
+}

@@ -1,0 +1,11 @@
+.errorContainer {
+  height: 100vh;
+  background-color: var(--helper-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorContainer h3{
+  color: #fff;
+}
