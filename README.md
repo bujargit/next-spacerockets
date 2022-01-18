@@ -1,7 +1,7 @@
 # next-spacerockets
 SpaxeX Past Lounches
 
-DEMO 👉 https://next-spacerockets-d24lqldd8-bujargit.vercel.app/
+DEMO 👉 https://next-spacerockets-hwgfb5rzz-bujargit.vercel.app/
 
 This is an example web app powered frontEnd with React.js and made static page with Next.js [Next.js].
 
