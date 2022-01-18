@@ -1,12 +1,12 @@
-// import { ApolloProvider, InMemoryCache, ApolloClient } from "@apollo/client";
+import { ApolloProvider, InMemoryCache, ApolloClient } from "@apollo/client";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 // import NavBar from '../components/NavBar/NavBar';
 import "../styles/globals.css";
 
-// const client = new ApolloClient({
-//   uri: "https://api.spacex.land/graphql",
-//   cache: new InMemoryCache(),
-// });
+const client = new ApolloClient({
+  uri: "https://api.spacex.land/graphql",
+  cache: new InMemoryCache(),
+});
 
 const theme = createTheme({
   palette: {
@@ -25,14 +25,14 @@ const theme = createTheme({
 
 function MyApp({ Component, pageProps }) {
   return (
-    // <ApolloProvider client={client}>
+    <ApolloProvider client={client}>
       <ThemeProvider theme={theme}>
         <div className="general">
           {/* <NavBar /> */}
           <Component {...pageProps} />
         </div>
       </ThemeProvider>
-    // </ApolloProvider>
+    </ApolloProvider>
   );
 }
 
